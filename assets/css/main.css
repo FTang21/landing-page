@@ -1771,8 +1771,7 @@ input, select, textarea {
 		}
 
 		.image.featured {
-			display: block;
-			width: 100%;
+			width: 25%;
 			margin: 0 0 2em 0;
 		}
 
@@ -2247,7 +2246,7 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-image: url("images/jwst.jpg");
+				background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/jwst.jpg");
 			}
 
 			#main > section.two {
